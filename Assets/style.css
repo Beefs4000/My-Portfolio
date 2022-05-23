@@ -1,0 +1,100 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+html{
+    min-height: 100%;
+}
+
+body{
+    background-image: linear-gradient(to right top, #534a62, #8b5d7b, #c57280, #f09375, #ffc169);
+    width: 100%;
+    background-attachment: fixed;
+}
+
+.banner{
+    position: relative;
+    font-family: 'Roboto';
+    background-color: var(--secondary-color);
+    overflow: hidden;
+    padding-top: var(--b-padding);
+    padding-bottom: var(--b-padding);
+    border-style: solid;
+    border-color: var(--primary-color);
+    border-width: var(--h-border-thk);
+    border-left: var(--h-border);
+    border-right: var(--h-border);
+}
+
+.nav-list{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.nav-list a {    
+    text-decoration: none;
+    color: var(--text-heading);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: xx-large;
+}
+
+.tiles{
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: ;
+}
+
+.heading{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    color: var(--text-heading);
+    font-weight: var(--h-width);
+    font-size: var(--h-size);
+    padding: 1rem;
+}
+
+
+.main-text{
+    color: var(--text-main);
+    border-color: var(--primary-color);
+    font-size: x-large;
+    padding: 1rem;
+    border-style: solid;
+    border-width: 0.25rem;
+
+}
+
+/* Footer Banner */
+
+.social-footer{
+    padding: 1rem;
+    background: var(--secondary-color);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+/* add hover */
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-instagram{
+    background: black;
+    color: white;
+    border-radius: 10%;
+}
+
