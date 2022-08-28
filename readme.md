@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-<h3 align="center">E-commerce Art Store</h3>
+<h3 align="center">My Portfolio</h3>
 <div>
   <p align="center">
     In this project we tasked ourselves with making a simple ecommerce website to display local artist work. Where users can log in, browse through various artists and styles on display, select their favorite pieces, add them to a cart, then check out if desired. We used Node.js and Express.js to create RESTful API's. Our template engine was Handlebars with some boostrapping for the UI. To store the data we used MySQL and Sequelize. For basic authentication we used express-session.
